@@ -1,4 +1,4 @@
-import nav from './NavBar';
+
 export default function NavBar(){
     return (
         <nav className="navbar">
