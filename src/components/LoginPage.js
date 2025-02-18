@@ -5,7 +5,6 @@ function LoginForm() {
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
     const [response, setResponse] = useState(null);
-    const [user,setUser]=useState(null);
     const navigate = useNavigate();
 
     const handleSubmit = async (e) => {
