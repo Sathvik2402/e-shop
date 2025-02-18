@@ -1,0 +1,69 @@
+.homebutton{
+    padding: 20px;
+    width: 250px;
+    background-color:#FFFDF0;
+    text-align: center;
+    margin:5px;
+    color: black;
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+/*display the items horizontally*/
+/*.product-list {*/
+/*    display: flex;*/
+/*    flex-direction: row; !* Keep the items in a row *!*/
+/*    flex-wrap: wrap; !* Allow items to wrap to the next row when needed *!*/
+/*    margin-left: 13px; !* Left margin *!*/
+/*}*/
+/*control the size of each time while shrinking*/
+/*.product {*/
+/*    flex: 1 1 200px; !* Each item can shrink or grow, but will take at least 200px *!*/
+/*    box-sizing: border-box; !* Prevents overflow *!*/
+/*}*/
+
+.homebutton:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition-duration: 0.7s;
+}
+
+.navbar {
+    background-color: #333;
+    /*padding: 10px 10px 10px 10px;*/
+    top: 0;
+    z-index: 1000;
+}
+
+.button-list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.button-list li {
+    margin-left:40px;
+}
+li{
+    display: inline;
+}
+
+li {
+    background-color: transparent;
+    color: white;
+    border: none;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+li:hover {
+    background-color: #FFFDF0;
+    color: black;
+}
+
+

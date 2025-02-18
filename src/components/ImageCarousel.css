@@ -1,0 +1,51 @@
+.carousel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    width: fit-content;
+    height: fit-content;
+}
+
+.carousel {
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    overflow: hidden;
+}
+
+.image-container {
+    width: 50%;
+    height: 50%;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color:transparent;
+    color: lightslategrey;
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+
+    cursor: pointer;
+}
+
+button:hover {
+   color: black;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}

@@ -1,0 +1,58 @@
+.product-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background:#EFF3EA;
+    font-family: "Roboto", sans-serif;
+    font-size: 10px;
+    width: fit-content;
+    height:fit-content;
+    margin-top: 20px;
+    margin-left: 25px;
+    transition-duration: 0.4s;
+    border:1px;
+    border-color: #EFF3EA;
+    border-style:solid;
+}
+
+.product-card:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition-duration: 0.7s;
+}
+.product-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    background:transparent;
+    border: 0.5px;
+    border-style: solid;
+    border-color:#EFF3EA;
+
+}
+
+h3{
+    color: #111111;
+}
+
+.addtocart{
+    color: black;
+    display: flex;
+    padding-bottom: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    font: bold 14px "Roboto", sans-serif;
+    background: #EFF3EA;
+    text-decoration: none;
+
+}
+.addtocart:hover{
+    color: slategray;
+    cursor: pointer;
+}
