@@ -39,7 +39,7 @@ function LoginForm() {
                 if(fetchUser.ok){
                     const result=await fetchUser.json();
                     console.log("Fetched User:",result);
-                    setUser(result);
+                    setUsername(result);
                     navigate('/',{state:{result}});
                 }
                 else{
